@@ -1,10 +1,13 @@
 from collections import defaultdict
 
+# -> Global variables
 # Job id
 job_id = mssparkutils.env.getJobId()
 
 # Mount points
 mount_point = defaultdict(dict)
+# <- Global variables
+
 
 linked_service_name = "LINKED_SERVCIE_TO_ADLS_LS"
 container = "raw"
