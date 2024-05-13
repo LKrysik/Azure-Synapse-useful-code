@@ -23,7 +23,7 @@ def mount_from_linkedservice(linked_service_name, storage_container_name):
         pass
 
     try:
-        # Temporarily mount the prod container using to access all the required fields
+        # Temporarily mount the container using to access all the required fields
         mssparkutils.fs.mount(
             f"{abfss_path}", 
             f"{mount_point}", 
