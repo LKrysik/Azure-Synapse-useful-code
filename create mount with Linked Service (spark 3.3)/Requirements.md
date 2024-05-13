@@ -1,5 +1,5 @@
 # Requirements
 * Linked Service to ADLS container
-* Spark 3.3
+* Spark pool version 3.3
 
 
