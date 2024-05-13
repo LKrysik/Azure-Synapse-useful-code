@@ -1,4 +1,4 @@
-# Linked Service to serverless (no parameters allowed)
+# Linked Service to serverless sql db(no parameters allowed)
 
 ```
 {
