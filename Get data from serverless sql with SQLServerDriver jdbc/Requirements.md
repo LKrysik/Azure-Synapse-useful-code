@@ -1,6 +1,6 @@
 # Linked Service to serverless (no parameters allowed)
 
-
+```
 {
     "name": "LINKED_SERVICE_SL_SQL_LS",
     "properties": {
@@ -15,4 +15,4 @@
         }
     }
 }
-
+```
