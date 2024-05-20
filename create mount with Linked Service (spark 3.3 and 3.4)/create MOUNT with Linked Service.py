@@ -32,7 +32,7 @@ def mount_from_linkedservice(linked_service_name, storage_container_name):
             logger.info(f"Mounted: {mount_point} for {abfss_path}")
             break
         except Exception as e:
-            print(f"Write conflict detected on attempt {attempt+1}. Error: {e}. Retrying...")
+            print(f"Mounting error on attempt {attempt+1}. Error: {e}. Retrying...")
             #Unmount if exists
             try:
                 mssparkutils.fs.unmount(mount_point)
